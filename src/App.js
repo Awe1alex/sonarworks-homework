@@ -8,8 +8,12 @@ import {
 } from "react-router-dom";
 
 import Menu from './components/Menu'
-import PrivacyPolicy from './components/PrivacyPolicy'
-import PartnershipPolicy from './components/PartnershipPolicy'
+import Privacy from './components/Privacy'
+import Partnership from './components/Partnership'
+import Terms from './components/Terms'
+import Cookies from './components/Cookies'
+import Support from './components/Support'
+import Sonarworks from './components/Sonarworks'
 
 function App() {
   return (
@@ -28,11 +32,23 @@ function App() {
         </header>
         <section className={classes.main}>
           <Switch>
-            <Route path="/privacyPolicy">
-              <PrivacyPolicy />
+            <Route path="/privacy">
+              <Privacy />
             </Route>
-            <Route path="/partnershipPolicy">
-              <PartnershipPolicy />
+            <Route path="/partnership">
+              <Partnership />
+            </Route>
+            <Route path="/terms">
+              <Terms />
+            </Route>
+            <Route path="/cookies">
+              <Cookies />
+            </Route>
+            <Route path="/support">
+              <Support />
+            </Route>
+            <Route path="/sonarworks">
+              <Sonarworks />
             </Route>
             <Route path="/">
               <Menu />
