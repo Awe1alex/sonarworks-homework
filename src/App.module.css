@@ -7,31 +7,42 @@
 
 .header {
   background-color: black;
-  height: 96px;
+  height: 6rem;
   display: flex;
   color: white;
-  font-size: 16px;
   line-height: 24px;
 }
 
 .company {
-  padding: 16px;
+  padding: 1rem;
   font-weight: 600;
   width: 190px;
   border-right: 1px solid #313335;
 }
 
 .route {
-  padding: 16px;
+  padding: 1rem;
   border-right: 1px solid #313335;
   flex: 1;
 }
 
+.link {
+  text-decoration: none;
+  color: #96989C;
+}
+
+.link.active,
+.link:active,
+.link:hover {
+  color: white;
+}
+
 .logoContainer {
-  width: 96px;
+  width: 6rem;
   display: flex;
   justify-content: center;
   align-items: center;
+  flex: 0 0 6rem;
 }
 
 .main {
@@ -41,10 +52,10 @@
 
 .footer {
   background-color: black;
-  height: 96px;
+  height: 6rem;
   color: #96989C;
   display: flex;
   align-items: flex-end;
-  padding: 16px;
+  padding: 1rem;
   font-size: 11px;
 }
