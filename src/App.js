@@ -15,6 +15,10 @@ function App() {
           <img src={logo} alt='logo'></img>
         </div>
       </header>
+      <section className={classes.main}></section>
+      <footer className={classes.footer}>
+        © 2020 Sonarworks Inc. All rights reserved.
+      </footer>
     </div>
   );
 }

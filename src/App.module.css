@@ -7,11 +7,11 @@
 
 .header {
   background-color: black;
+  height: 96px;
   display: flex;
   color: white;
   font-size: 16px;
   line-height: 24px;
-  height: 96px;
 }
 
 .company {
@@ -32,4 +32,19 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.main {
+  flex: 1;
+  overflow-y: auto;
+}
+
+.footer {
+  background-color: black;
+  height: 96px;
+  color: #96989C;
+  display: flex;
+  align-items: flex-end;
+  padding: 16px;
+  font-size: 11px;
 }
