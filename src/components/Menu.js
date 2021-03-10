@@ -26,13 +26,18 @@ const Menu = () => {
                 </Link>
             </li>
             <li>
-                <Link to="/partnership">
+                <Link to="/support">
                     Support Service →
                 </Link>
             </li>
             <li>
-                <Link to="/partnership">
+                <Link to="/truefi-privacy">
                     Sonarworks True-Fi privacy statement →
+                </Link>
+            </li>
+            <li>
+                <Link to="/eula">
+                    End-User License Agreement →
                 </Link>
             </li>
         </ul>
