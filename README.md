@@ -17,8 +17,6 @@ well content string is not really good idea, because most of frontend frameworks
 
 The solution would be to pass data as an array of contents and do it in recursive way for example:
 
-#### Example
-
 ```
 content : [
   {
