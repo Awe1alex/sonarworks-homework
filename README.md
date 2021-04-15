@@ -14,11 +14,11 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 ## Technology stack
 
-Thech stak of my choice is React with router, JavaScript and CSS.
+Thech stack of my choice is React with router, JavaScript and CSS.
 
 I like and feel comfortable both React and Vue they are pretty similar and will show almost same performance in this project. So it is just React this time.
 
-As it is small project here is no need for TypeScript. Also i moslty prefer working with SCSS so if this project would be any larger i definitely would switch to it.
+As it is small project here is no need for TypeScript. Also I moslty prefer working with SCSS so if this project would be any larger I definitely would switch to it.
 No Redux: in this project I could use Redux to store api responses and keep them after component unmounts.
 
 ## Api Suggestions
@@ -69,7 +69,7 @@ Suggestion: make arrow as separate block and justify it between with text and al
 
 #### Text components
 
-I didnt do much styling here just set the color oh content text to gray.
+I didnt do much styling here just set the color of content text to gray.
 
 ## Other suggestions
 
